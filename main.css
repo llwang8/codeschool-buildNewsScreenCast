@@ -20,6 +20,10 @@
 ------------------------------------*/
 
 body {
+    color: #212121;
+    font-family: 'lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
 
 }
 
@@ -31,7 +35,7 @@ p {
 
 }
 
-ol {
+ol, ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -42,7 +46,12 @@ li {
 }
 
 a {
-
+    color: #ff4081;
+}
+a:active,
+a:hover,
+a:focus {
+    color: #212121;
 }
 
 /*------------------------------------
@@ -77,9 +86,15 @@ a {
 
 .news-link {
     color: #3f51b5;
+    display: block;
     font-size: 24px;
+    margin-bottom: 10px;
 }
 
+.news-meta-item {
+    display: inline;
+    margin-right: 15px;
+}
 /*------------------------------------
 *  container
 ------------------------------------*/
