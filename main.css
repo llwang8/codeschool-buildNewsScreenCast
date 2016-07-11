@@ -1,22 +1,22 @@
 /************************************
 
-*   Front-end News! Stylesheet
+ *   Front-end News! Stylesheet
 
-*  white           : #fff;
-*  header background: #405482
+ *  white           : #fff;
+ *  header background: #405482
 
-*  Indigo        : #3f51b5
-*  Indigo (dark) : #303f9f
-*  Light blue    : #c5cae9
-*  White         : #fff
-*  Pink          : #ff4081
-*  Gray (dark)   : #212121
-*  Gray (medium) : #727272
-*  Gray (light)  : #b6b6b6
+ *  Indigo        : #3f51b5
+ *  Indigo (dark) : #303f9f
+ *  Light blue    : #c5cae9
+ *  White         : #fff
+ *  Pink          : #ff4081
+ *  Gray (dark)   : #212121
+ *  Gray (medium) : #727272
+ *  Gray (light)  : #b6b6b6
 *************************************
 
 /*------------------------------------
-*  Base
+ *  Base
 ------------------------------------*/
 
 body {
@@ -55,7 +55,7 @@ a:focus {
 }
 
 /*------------------------------------
-*  hero
+ *  hero
 ------------------------------------*/
 .hero {
     background-color: #3f51b5;
@@ -66,7 +66,7 @@ a:focus {
 }
 
 /*------------------------------------
-*  logo
+ *  logo
 ------------------------------------*/
 .logo {
     font-size: 36px;
@@ -76,7 +76,7 @@ a:focus {
 
 
 /*------------------------------------
-*  news
+ *  news
 ------------------------------------*/
 .news-item {
     border-bottom: 1px solid #b6b6b6;
@@ -96,7 +96,7 @@ a:focus {
     margin-right: 15px;
 }
 /*------------------------------------
-*  container
+ *  container
 ------------------------------------*/
 
 .container {
@@ -105,12 +105,29 @@ a:focus {
 }
 
 /*------------------------------------
-*  content
+ *  content
 ------------------------------------*/
 .content {
     margin-bottom: 40px;
 }
 
+/*------------------------------------
+ *  states
+------------------------------------*/
+.is-like {
+    animation: flash 2s;
+}
 
 
+/*------------------------------------
+ *  Animation
+------------------------------------*/
+@keyframes flash {
+  from, 50%, to {
+    opacity: 0;
+  }
+  25%, 75% {
+    opacity: 1;
+  }
+}
 
