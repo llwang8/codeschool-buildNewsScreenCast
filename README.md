@@ -4,6 +4,8 @@ I built an interactive fictional Front-end News website with HTML and CSS, while
 
 I enhanced the user experience on a website with JavaScript by adding jQuery, triggering animations, and showing and hiding a form field.
 
+I created the display of a modal pop-up window by using HTML, CSS, and jQuery
+
 #Built with:
 Implemented with HTML and CSS. Also used normalize.css, digital color meter, hexcolor converter.
 
