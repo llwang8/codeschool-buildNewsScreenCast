@@ -26,12 +26,13 @@ $(document).ready(function(){
         event.preventDefault();
 
         $('.js-modal').addClass('is-visible');
-        $('.js-modal-overplay').addClass('is-visible');
+        $('.js-modal-overlay').addClass('is-visible');
     });
 
-    $('.js-modal-overplay').on('click', function(event){
+
+    $('.js-modal-overlay').on('click', function(event) {
         $('.js-modal').removeClass('is-visible');
-        $('.js-modal-overplay').removeClass('is-visible');
+        $('.js-modal-overlay').removeClass('is-visible');
     });
 
 });
